@@ -1,0 +1,12 @@
+docker run --gpus all \
+    -e DISPLAY \
+    -e WAYLAND_DISPLAY \
+    -e XDG_RUNTIME_DIR \
+    -e PULSE_SERVER \
+    -e MESA_D3D12_DEFAULT_ADAPTER_NAME=NVIDIA \
+    -e LD_LIBRARY_PATH=/usr/lib/wsl/lib:LD_LIBRARY_PATH \
+    -v /tmp/.X11-unix:/tmp/.X11-unix \
+    -v /mnt/wslg:/mnt/wslg \
+    -v /usr/lib/wsl:/usr/lib/wsl \
+    --name ubuntu2204-ros \
+    -itd ubuntu2204-noetic /bin/bash
