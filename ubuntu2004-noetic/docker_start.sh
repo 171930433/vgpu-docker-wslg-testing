@@ -8,5 +8,8 @@ docker run --gpus all \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -v /mnt/wslg:/mnt/wslg \
     -v /usr/lib/wsl:/usr/lib/wsl \
-    --name ubuntu2204-ros \
-    -itd ubuntu2204-noetic /bin/bash
+    -v /etc/timezone:/etc/timezone:ro \
+    -v /etc/localtime:/etc/localtime:ro \
+    -v .:/home/$USER/ros_ws \
+    --name ubuntu2004-ros \
+    -itd ubuntu2004-ros:noetic /bin/bash
