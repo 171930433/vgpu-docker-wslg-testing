@@ -1,0 +1,3 @@
+[submodule "ubuntu2004-noetic/catkin_ws/src"]
+	path = ubuntu2004-noetic/catkin_ws/src
+	url = git@github.com:171930433/visualization_tutorials.git
