@@ -4,7 +4,9 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/opt/ros/noetic/**"
+                // "/opt/ros/noetic/**",
+                "/usr/include/x86_64-linux-gnu/qt5/**",
+                "/usr/include/OGRE/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
