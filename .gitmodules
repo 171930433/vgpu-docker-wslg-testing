@@ -13,3 +13,9 @@
 [submodule "ubuntu2004-noetic/catkin_ws/src/rviz_visual_tools"]
 	path = ubuntu2004-noetic/catkin_ws/src/rviz_visual_tools
 	url = git@github.com:171930433/rviz_visual_tools.git
+[submodule "ubuntu2004-noetic/catkin_ws/src/rtklib"]
+	path = ubuntu2004-noetic/catkin_ws/src/rtklib
+	url = git@github.com:171930433/rtklib.git
+[submodule "ubuntu2004-noetic/catkin_ws/src/qtads"]
+	path = ubuntu2004-noetic/catkin_ws/src/qtads
+	url = git@github.com:171930433/qtads.git
