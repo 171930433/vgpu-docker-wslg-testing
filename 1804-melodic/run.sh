@@ -1,0 +1,1 @@
+docker build  -t ubuntu1804-ros:melodic -f Dockerfile .
